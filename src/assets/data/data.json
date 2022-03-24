@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Spotify",
+    "price": 4.99,
+    "frequency": "monthly",
+    "description": "Spotify's description",
+    "created_at": 1648123347,
+    "updated_at": 1648133347
+  },
+  {
+    "id": 2,
+    "name": "Apple Music",
+    "price": 4.99,
+    "frequency": "monthly",
+    "description": "Apple Music's description",
+    "created_at": 1628123347,
+    "updated_at": 1638123347
+  },
+  {
+    "id": 3,
+    "name": "Google Cloud Storage",
+    "price": 299.99,
+    "frequency": "annual",
+    "description": "Google Cloud Storage's description",
+    "created_at": 1627123347,
+    "updated_at": 1627223347
+  },
+  {
+    "id": 4,
+    "name": "Netflix",
+    "price": 10.99,
+    "frequency": "monthly",
+    "description": "Netflix's description",
+    "created_at": 1647223347,
+    "updated_at": 1647923347
+  }
+]
