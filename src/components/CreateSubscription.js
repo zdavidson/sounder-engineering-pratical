@@ -12,11 +12,11 @@ const CreateSubscription = () => {
         <input type="text" placeholder="Subscription Name" />
         <input type="text" placeholder="Price" />
         <div>
-          <input type="radio" id="monthly" />
+          <input type="radio" id="monthly" value="monthly" />
           <label htmlFor="monthly">Monthly</label>
         </div>
         <div>
-          <input type="radio" id="annual" />
+          <input type="radio" id="annual" value="annual" />
           <label htmlFor="annual">Annual</label>
         </div>
         <input type="submit" value="Submit" />

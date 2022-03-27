@@ -4,6 +4,7 @@ import data from "../assets/data/data.json";
 const SubscriptionTable = () => {
   return (
     <>
+      <button>Delete Selected</button>
       <div
         style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
       >

@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import Home from "./components/Home";
@@ -9,9 +9,12 @@ import SubscriptionDetails from "./components/SubscriptionDetails";
 import EditSubscription from "./components/EditSubscription";
 
 import { SelectedSubscriptionProvider } from "./context/SelectedSubscriptionContext";
+import { SubscriptionsToDeleteProvider } from "./context/SubscriptionsToDeleteContext";
+// import { DeleteSubscriptionsContext } from "./context/SubscriptionsToDeleteContext";
 
 // EditSubscription & Delete
-// Home -- See all subscriptions in table paginated at 10 per page, able to select several and delete at once
+// Home -- See all subscriptions in table paginated at 10 per page
+// Able to select several subscriptions and delete at once -- useContext to set Array of subscriptions to delete, then useContext to pass delete button power to hide all of those subscriptions
 // SubscriptionDetails -- needs to display currently selected sub
 // use ReactQuery for data fetching
 
@@ -26,17 +29,19 @@ function App() {
   return (
     <Router>
       <SelectedSubscriptionProvider>
-        <div className="App">
-          <Navigation />
+        <SubscriptionsToDeleteProvider>
+          <div className="App">
+            <Navigation />
 
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/expenses" element={<Expenses />} />
-            <Route path="/create" element={<CreateSubscription />} />
-            <Route path="/details/:id" element={<SubscriptionDetails />} />
-            <Route path="/edit/:id" element={<EditSubscription />} />
-          </Routes>
-        </div>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/expenses" element={<Expenses />} />
+              <Route path="/create" element={<CreateSubscription />} />
+              <Route path="/details/:id" element={<SubscriptionDetails />} />
+              <Route path="/edit/:id" element={<EditSubscription />} />
+            </Routes>
+          </div>
+        </SubscriptionsToDeleteProvider>
       </SelectedSubscriptionProvider>
     </Router>
   );
