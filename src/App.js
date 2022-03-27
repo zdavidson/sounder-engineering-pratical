@@ -9,7 +9,7 @@ import SubscriptionDetails from "./components/SubscriptionDetails";
 import EditSubscription from "./components/EditSubscription";
 
 import { SelectedSubscriptionProvider } from "./context/SelectedSubscriptionContext";
-import { SubscriptionsToDeleteProvider } from "./context/SubscriptionsToDeleteContext";
+import { ToastProvider } from "./context/ToastContext";
 
 // Home -- See all subscriptions in table paginated at 10 per page
 
@@ -29,7 +29,7 @@ function App() {
   return (
     <Router>
       <SelectedSubscriptionProvider>
-        <SubscriptionsToDeleteProvider>
+        <ToastProvider>
           <div className="App">
             <Navigation />
 
@@ -41,7 +41,7 @@ function App() {
               <Route path="/edit/:id" element={<EditSubscription />} />
             </Routes>
           </div>
-        </SubscriptionsToDeleteProvider>
+        </ToastProvider>
       </SelectedSubscriptionProvider>
     </Router>
   );
