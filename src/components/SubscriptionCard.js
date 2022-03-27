@@ -1,11 +1,12 @@
 import { useSelectedSubscriptionUpdate } from "../context/SelectedSubscriptionContext";
-
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { useBreadcrumbs } from "../context/BreadcrumbsContext";
 
 const SubscriptionCard = ({ subscription }) => {
   const [display, setDisplay] = useState("block");
   const setSelectedSubscription = useSelectedSubscriptionUpdate();
+  const addToBreadcrumbs = useBreadcrumbs();
 
   let navigate = useNavigate();
 
@@ -28,6 +29,10 @@ const SubscriptionCard = ({ subscription }) => {
           onClick={(e) => {
             e.preventDefault();
             setSelectedSubscription(subscription);
+            addToBreadcrumbs({
+              name: "Details",
+              pathname: `/details/${subscription.id}`,
+            });
             navigate(`/details/${subscription.id}`);
           }}
         >
@@ -42,6 +47,10 @@ const SubscriptionCard = ({ subscription }) => {
         onClick={(e) => {
           e.preventDefault();
           setSelectedSubscription(subscription);
+          addToBreadcrumbs({
+            name: "Edit",
+            pathname: `/edit/${subscription.id}`,
+          });
           navigate(`/edit/${subscription.id}`);
         }}
       >

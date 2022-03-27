@@ -1,11 +1,11 @@
 import SubscriptionTable from "./SubscriptionTable";
-
-// import Pages from "./Pages";
-// import data from "../assets/data/data.json";
+import { useLocation, useParams } from "react-router";
 
 const Home = () => {
-  // let totalItems = data.length;
-  // let limit = 10;
+  let params = useParams();
+  let location = useLocation();
+  console.log(location);
+
   return (
     <div>
       <SubscriptionTable />
