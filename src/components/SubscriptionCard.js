@@ -3,7 +3,7 @@ import { useSelectedSubscriptionUpdate } from "../context/SelectedSubscriptionCo
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const SubscriptionCard = ({ subscription, hidden }) => {
+const SubscriptionCard = ({ subscription }) => {
   const [display, setDisplay] = useState("block");
   const setSelectedSubscription = useSelectedSubscriptionUpdate();
 
@@ -12,6 +12,7 @@ const SubscriptionCard = ({ subscription, hidden }) => {
   return (
     <div
       className="subscription-card"
+      data-testid="subscription-card"
       style={{
         border: "1px solid blue",
         padding: "2rem",

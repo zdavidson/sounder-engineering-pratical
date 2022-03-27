@@ -10,11 +10,9 @@ import EditSubscription from "./components/EditSubscription";
 
 import { SelectedSubscriptionProvider } from "./context/SelectedSubscriptionContext";
 import { SubscriptionsToDeleteProvider } from "./context/SubscriptionsToDeleteContext";
-// import { DeleteSubscriptionsContext } from "./context/SubscriptionsToDeleteContext";
 
-// EditSubscription & Delete
 // Home -- See all subscriptions in table paginated at 10 per page
-// Able to select several subscriptions and delete at once -- useContext to set Array of subscriptions to delete, then useContext to pass delete button power to hide all of those subscriptions
+
 // SubscriptionDetails -- needs to display currently selected sub
 // use ReactQuery for data fetching
 
@@ -24,6 +22,8 @@ import { SubscriptionsToDeleteProvider } from "./context/SubscriptionsToDeleteCo
 
 // Create a breadcrumbs component that sits on top of every page so you can navigate the page hierarchy
 // Cover some of the critical paths (in your opinion) of the application with integration tests
+
+// Able to select several subscriptions and delete at once -- useContext to set Array of subscriptions to delete, then useContext to pass delete button power to hide all of those subscriptions
 
 function App() {
   return (

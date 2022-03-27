@@ -1,6 +1,6 @@
 const Navigation = () => {
   return (
-    <div>
+    <div data-testid="navigation">
       <ul
         style={{
           listStyleType: "none",
@@ -9,7 +9,9 @@ const Navigation = () => {
         }}
       >
         <li style={{ margin: "1rem 2rem" }}>
-          <a href="/">Home</a>
+          <a id="home" href="/">
+            Home
+          </a>
         </li>
         <li style={{ margin: "1rem 2rem" }}>
           <a href="/expenses">Expenses</a>
