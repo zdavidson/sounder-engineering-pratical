@@ -5,8 +5,8 @@
     "price": 4.99,
     "frequency": "monthly",
     "description": "Spotify's description",
-    "created_at": 1648123347,
-    "updated_at": 1648133347
+    "created_at": 1648123347000,
+    "updated_at": 1648133347000
   },
   {
     "id": 2,
@@ -14,8 +14,8 @@
     "price": 4.99,
     "frequency": "monthly",
     "description": "Apple Music's description",
-    "created_at": 1628123347,
-    "updated_at": 1638123347
+    "created_at": 1628123347000,
+    "updated_at": 1638123347000
   },
   {
     "id": 3,
@@ -23,8 +23,8 @@
     "price": 299.99,
     "frequency": "annual",
     "description": "Google Cloud Storage's description",
-    "created_at": 1627123347,
-    "updated_at": 1627223347
+    "created_at": 1627123347000,
+    "updated_at": 1627223347000
   },
   {
     "id": 4,
@@ -32,8 +32,8 @@
     "price": 10.99,
     "frequency": "monthly",
     "description": "Netflix's description",
-    "created_at": 1647223347,
-    "updated_at": 1647923347
+    "created_at": 1647223347000,
+    "updated_at": 1647923347000
   },
   {
     "id": 5,
@@ -41,8 +41,8 @@
     "price": 2.99,
     "frequency": "monthly",
     "description": "Headspace's description",
-    "created_at": 1623223347,
-    "updated_at": 1624923347
+    "created_at": 1623223347000,
+    "updated_at": 1624923347000
   },
   {
     "id": 6,
@@ -50,8 +50,8 @@
     "price": 14.99,
     "frequency": "monthly",
     "description": "HBO's description",
-    "created_at": 1637223347,
-    "updated_at": 1637923347
+    "created_at": 1637223347000,
+    "updated_at": 1637923347000
   },
   {
     "id": 7,
@@ -59,8 +59,8 @@
     "price": 14.99,
     "frequency": "monthly",
     "description": "Amazon Prime's description",
-    "created_at": 1647223247,
-    "updated_at": 1647923247
+    "created_at": 1647223247000,
+    "updated_at": 1647923247000
   },
   {
     "id": 8,
@@ -68,8 +68,8 @@
     "price": 9.99,
     "frequency": "monthly",
     "description": "DoorDash's description",
-    "created_at": 1647223347,
-    "updated_at": 1647923347
+    "created_at": 1647223347000,
+    "updated_at": 1647923347000
   },
   {
     "id": 9,
@@ -77,8 +77,8 @@
     "price": 9.99,
     "frequency": "monthly",
     "description": "GrubHub's description",
-    "created_at": 1647223347,
-    "updated_at": 1647923347
+    "created_at": 1647223347000,
+    "updated_at": 1647923347000
   },
   {
     "id": 10,
@@ -86,8 +86,8 @@
     "price": 59.99,
     "frequency": "annual",
     "description": "Costco's description",
-    "created_at": 1647223347,
-    "updated_at": 1647923347
+    "created_at": 1647223347000,
+    "updated_at": 1647923347000
   },
   {
     "id": 11,
@@ -95,8 +95,8 @@
     "price": 12.99,
     "frequency": "monthly",
     "description": "Webflow's description",
-    "created_at": 1647223347,
-    "updated_at": 1647923347
+    "created_at": 1647223347000,
+    "updated_at": 1647923347000
   },
   {
     "id": 12,
@@ -104,8 +104,8 @@
     "price": 59.99,
     "frequency": "monthly",
     "description": "Instacart's description",
-    "created_at": 1647223347,
-    "updated_at": 1647923347
+    "created_at": 1647223347000,
+    "updated_at": 1647923347000
   },
   {
     "id": 13,
@@ -113,8 +113,8 @@
     "price": 180,
     "frequency": "annual",
     "description": "Masterclass' description",
-    "created_at": 1647223347,
-    "updated_at": 1647923347
+    "created_at": 1647223347000,
+    "updated_at": 1647923347000
   },
   {
     "id": 14,
@@ -122,8 +122,8 @@
     "price": 149.99,
     "frequency": "annual",
     "description": "IMDbPro's description",
-    "created_at": 1647223347,
-    "updated_at": 1647923347
+    "created_at": 1647223347000,
+    "updated_at": 1647923347000
   },
   {
     "id": 15,
@@ -131,8 +131,8 @@
     "price": 60,
     "frequency": "annual",
     "description": "GoDaddy's description",
-    "created_at": 1647223347,
-    "updated_at": 1647923347
+    "created_at": 1647223347000,
+    "updated_at": 1647923347000
   },
   {
     "id": 16,
@@ -140,8 +140,8 @@
     "price": 10.99,
     "frequency": "monthly",
     "description": "Netflix's description",
-    "created_at": 1647223347,
-    "updated_at": 1647923347
+    "created_at": 1647223347000,
+    "updated_at": 1647923347000
   },
   {
     "id": 17,
@@ -149,8 +149,8 @@
     "price": 152.6,
     "frequency": "annual",
     "description": "Squarepace's description",
-    "created_at": 1647223347,
-    "updated_at": 1647923347
+    "created_at": 1647223347000,
+    "updated_at": 1647923347000
   },
   {
     "id": 18,
@@ -158,8 +158,8 @@
     "price": 550,
     "frequency": "monthly",
     "description": "Chase Sapphire's description",
-    "created_at": 1647223347,
-    "updated_at": 1647923347
+    "created_at": 1647223347000,
+    "updated_at": 1647923347000
   },
   {
     "id": 19,
@@ -167,8 +167,8 @@
     "price": 5.99,
     "frequency": "monthly",
     "description": "Hulu's description",
-    "created_at": 1647223347,
-    "updated_at": 1647923347
+    "created_at": 1647223347000,
+    "updated_at": 1647923347000
   },
   {
     "id": 20,
@@ -176,8 +176,8 @@
     "price": 89.99,
     "frequency": "annual",
     "description": "Apple Care's description",
-    "created_at": 1647223347,
-    "updated_at": 1647923347
+    "created_at": 1647223347000,
+    "updated_at": 1647923347000
   },
   {
     "id": 21,
@@ -185,8 +185,8 @@
     "price": 59.99,
     "frequency": "monthly",
     "description": "Notion's description",
-    "created_at": 1647223347,
-    "updated_at": 1647923347
+    "created_at": 1647223347000,
+    "updated_at": 1647923347000
   },
   {
     "id": 22,
@@ -194,7 +194,7 @@
     "price": 59.99,
     "frequency": "monthly",
     "description": "Gold's Gym's description",
-    "created_at": 1647223347,
-    "updated_at": 1647923347
+    "created_at": 1647223347000,
+    "updated_at": 1647923347000
   }
 ]

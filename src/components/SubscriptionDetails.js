@@ -1,4 +1,5 @@
 import { useSelectedSubscription } from "../context/SelectedSubscriptionContext";
+import { convertTimestampToDate } from "../assets/functions";
 
 const SubscriptionDetails = () => {
   const selectedSubscription = useSelectedSubscription();
@@ -28,11 +29,11 @@ const SubscriptionDetails = () => {
         </p>
         <p>
           <b>Created At: </b>
-          {selectedSubscription.created_at}
+          {convertTimestampToDate(selectedSubscription.created_at)}
         </p>
         <p>
           <b>Updated At: </b>
-          {selectedSubscription.updated_at}
+          {convertTimestampToDate(selectedSubscription.updated_at)}
         </p>
       </div>{" "}
     </div>
