@@ -13,10 +13,6 @@ import { SelectedSubscriptionProvider } from "./context/SelectedSubscriptionCont
 import { ToastProvider } from "./context/ToastContext";
 import { BreadcrumbsProvider } from "./context/BreadcrumbsContext";
 
-// Cover some of the critical paths (in your opinion) of the application with integration tests
-// Able to select several subscriptions and delete at once
-// Change from timestamp to actual dates
-
 function App() {
   return (
     <Router>

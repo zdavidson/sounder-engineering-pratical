@@ -1,5 +1,5 @@
 import { useSelectedSubscription } from "../context/SelectedSubscriptionContext";
-import { convertTimestampToDate } from "../assets/functions";
+import { convertTimestampToDate } from "../assets/functions/functions";
 
 const SubscriptionDetails = () => {
   const selectedSubscription = useSelectedSubscription();
